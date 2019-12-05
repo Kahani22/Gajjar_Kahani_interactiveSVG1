@@ -1,1 +1,1 @@
-# infographic-_inclass
+# Interactive Infographic

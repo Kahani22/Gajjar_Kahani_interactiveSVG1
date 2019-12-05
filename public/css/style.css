@@ -1,0 +1,135 @@
+/* * { box-sizing: border-box; } */
+
+/* @font-face {
+  font-family: 'brewery';
+  src: url('AmericanBreweryRough.ttf') format('truetype');
+} */
+
+.main-header{
+  margin-left: 40%;
+  position: relative;
+
+}
+
+#lady {
+  z-index: -99;
+  position: absolute;
+  align-self: center;
+  margin-top: 200px;
+}
+
+.container {
+  position: relative;
+  margin-left: 10%;
+}
+
+.container div {
+  position: absolute;
+}
+
+h1 {
+  color: gray;
+
+}
+
+.torch{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+  padding-top: 200px;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 800px;
+  margin-right: 0px;
+
+}
+
+.crown {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 500px;
+  margin-left: 800px;
+  margin-right: 0px;
+}
+
+.tablet {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 800px;
+  margin-left: 800px;
+  margin-right: 0px;
+  
+}
+
+.body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 1150px;
+  margin-left: 800px;
+  margin-right: 0px;
+}
+
+.chains {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+  padding-top: 100px;
+  text-align: center;
+  margin-top: 1500px;
+  margin-left: 800px;
+  margin-right: 0px;
+}
+
+.typewriter h1 {
+  font-family: monospace; /* Web-safe typewriter-like font */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(80, 128, 134); }
+}
+
+#panel, #flip {
+  padding: 10px;
+  text-align: center;
+  background-color: #c3d7db;
+  border: solid 1px #c3c3c3;
+  font-size: xx-large;
+  color: white;
+
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+  font-size: x-large;
+}
